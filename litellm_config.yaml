@@ -1,0 +1,15 @@
+litellm_settings:
+  drop_params: true
+  
+model_list:
+  - model_name: claude-sonnet-4-6
+    litellm_params:
+      model: gemini/gemma-4-31b-it
+      api_key: "YOUR_GOOGLE_AI_STUDIO_API_KEY"
+      reasoning_effort: "none"
+
+  - model_name: claude-3-7-sonnet
+    litellm_params:
+      model: gemini/gemma-4-31b-it
+      api_key: "YOUR_GOOGLE_AI_STUDIO_API_KEY"
+      reasoning_effort: "none"
